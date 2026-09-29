@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="MineSpace — featured project"><title>MineSpace — featured project</title><style>
+  .f{font-family:'Geist','Inter','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif} .m{font-family:'Geist Mono','JetBrains Mono',ui-monospace,SFMono-Regular,Consolas,monospace}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  @keyframes ring{0%{r:5;opacity:.7}100%{r:14;opacity:0}}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  @keyframes draw{from{stroke-dashoffset:520}to{stroke-dashoffset:0}}
+  @keyframes glow{0%,100%{opacity:.55}50%{opacity:.9}}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  @keyframes dash{to{stroke-dashoffset:-40}}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  .pulse{animation:pulse 2s ease-in-out infinite}
+  .ring{animation:ring 2s ease-out infinite}
+  .glow{animation:glow 6s ease-in-out infinite}
+  .blink{animation:blink 1.1s steps(1) infinite}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><defs><pattern id="gf" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff0d" stroke-width="1"/></pattern>
+      <radialGradient id="fg" cx="85%" cy="40%" r="55%"><stop offset="0" stop-color="#a3f02e" stop-opacity=".28"/><stop offset="1" stop-color="#a3f02e" stop-opacity="0"/></radialGradient>
+      <clipPath id="fc"><rect width="1200" height="360" rx="26"/></clipPath></defs>
+    <g clip-path="url(#fc)">
+      <rect width="1200" height="360" fill="#111317"/>
+      <rect width="1200" height="360" fill="url(#gf)"/>
+      <rect width="1200" height="360" fill="url(#fg)" class="glow"/>
+      <!-- voxel island -->
+      <g transform="translate(930 190)"><g opacity="1"><path d="M0.0 -78 L44.199999999999996 -52 L0.0 -26 L-44.199999999999996 -52 Z" fill="#a3f02e"/><path d="M-44.199999999999996 -52 L0.0 -26 L0.0 10.399999999999999 L-44.199999999999996 -15.600000000000001 Z" fill="#2b3a14"/><path d="M44.199999999999996 -52 L0.0 -26 L0.0 10.399999999999999 L44.199999999999996 -15.600000000000001 Z" fill="#1c260d"/></g><g opacity="1"><path d="M44.199999999999996 -52 L88.39999999999999 -26 L44.199999999999996 0 L0.0 -26 Z" fill="#8fd422"/><path d="M0.0 -26 L44.199999999999996 0 L44.199999999999996 36.4 L0.0 10.399999999999999 Z" fill="#2b3a14"/><path d="M88.39999999999999 -26 L44.199999999999996 0 L44.199999999999996 36.4 L88.39999999999999 10.399999999999999 Z" fill="#1c260d"/></g><g opacity="1"><path d="M88.39999999999999 -26 L132.6 0 L88.39999999999999 26 L44.199999999999996 0 Z" fill="#a3f02e"/><path d="M44.199999999999996 0 L88.39999999999999 26 L88.39999999999999 62.4 L44.199999999999996 36.4 Z" fill="#2b3a14"/><path d="M132.6 0 L88.39999999999999 26 L88.39999999999999 62.4 L132.6 36.4 Z" fill="#1c260d"/></g><g opacity="1"><path d="M-44.199999999999996 -52 L0.0 -26 L-44.199999999999996 0 L-88.39999999999999 -26 Z" fill="#8fd422"/><path d="M-88.39999999999999 -26 L-44.199999999999996 0 L-44.199999999999996 36.4 L-88.39999999999999 10.399999999999999 Z" fill="#2b3a14"/><path d="M0.0 -26 L-44.199999999999996 0 L-44.199999999999996 36.4 L0.0 10.399999999999999 Z" fill="#1c260d"/></g><g opacity="1"><path d="M0.0 -26 L44.199999999999996 0 L0.0 26 L-44.199999999999996 0 Z" fill="#a3f02e"/><path d="M-44.199999999999996 0 L0.0 26 L0.0 62.4 L-44.199999999999996 36.4 Z" fill="#2b3a14"/><path d="M44.199999999999996 0 L0.0 26 L0.0 62.4 L44.199999999999996 36.4 Z" fill="#1c260d"/></g><g opacity="1"><path d="M44.199999999999996 0 L88.39999999999999 26 L44.199999999999996 52 L0.0 26 Z" fill="#8fd422"/><path d="M0.0 26 L44.199999999999996 52 L44.199999999999996 88.4 L0.0 62.4 Z" fill="#2b3a14"/><path d="M88.39999999999999 26 L44.199999999999996 52 L44.199999999999996 88.4 L88.39999999999999 62.4 Z" fill="#1c260d"/></g><g opacity="1"><path d="M-88.39999999999999 -26 L-44.199999999999996 0 L-88.39999999999999 26 L-132.6 0 Z" fill="#a3f02e"/><path d="M-132.6 0 L-88.39999999999999 26 L-88.39999999999999 62.4 L-132.6 36.4 Z" fill="#2b3a14"/><path d="M-44.199999999999996 0 L-88.39999999999999 26 L-88.39999999999999 62.4 L-44.199999999999996 36.4 Z" fill="#1c260d"/></g><g opacity="1"><path d="M-44.199999999999996 0 L0.0 26 L-44.199999999999996 52 L-88.39999999999999 26 Z" fill="#8fd422"/><path d="M-88.39999999999999 26 L-44.199999999999996 52 L-44.199999999999996 88.4 L-88.39999999999999 62.4 Z" fill="#2b3a14"/><path d="M0.0 26 L-44.199999999999996 52 L-44.199999999999996 88.4 L0.0 62.4 Z" fill="#1c260d"/></g><g opacity="1"><path d="M0.0 26 L44.199999999999996 52 L0.0 78 L-44.199999999999996 52 Z" fill="#a3f02e"/><path d="M-44.199999999999996 52 L0.0 78 L0.0 114.4 L-44.199999999999996 88.4 Z" fill="#2b3a14"/><path d="M44.199999999999996 52 L0.0 78 L0.0 114.4 L44.199999999999996 88.4 Z" fill="#1c260d"/></g><g style="animation:float 5s ease-in-out infinite"><g opacity="1"><path d="M0 -109.19999999999999 L35.36 -88.39999999999999 L0 -67.6 L-35.36 -88.39999999999999 Z" fill="#a3f02e"/><path d="M-35.36 -88.39999999999999 L0 -67.6 L0 -38.47999999999999 L-35.36 -59.279999999999994 Z" fill="#2b3a14"/><path d="M35.36 -88.39999999999999 L0 -67.6 L0 -38.47999999999999 L35.36 -59.279999999999994 Z" fill="#1c260d"/></g></g>
+        <g style="animation:float 6s ease-in-out -2s infinite"><g opacity="0.8"><path d="M-120 -121.7 L-100.11 -110 L-120 -98.3 L-139.89 -110 Z" fill="#8fd422"/><path d="M-139.89 -110 L-120 -98.3 L-120 -81.92 L-139.89 -93.62 Z" fill="#2b3a14"/><path d="M-100.11 -110 L-120 -98.3 L-120 -81.92 L-100.11 -93.62 Z" fill="#1c260d"/></g></g>
+        <g style="animation:float 7s ease-in-out -3s infinite"><g opacity="0.7"><path d="M130 -99.1 L145.47 -90 L130 -80.9 L114.53 -90 Z" fill="#a3f02e"/><path d="M114.53 -90 L130 -80.9 L130 -68.16 L114.53 -77.26 Z" fill="#2b3a14"/><path d="M145.47 -90 L130 -80.9 L130 -68.16 L145.47 -77.26 Z" fill="#1c260d"/></g></g>
+      </g>
+      <text x="48" y="64" class="m" font-size="15" letter-spacing="3" fill="#a3f02e">FEATURED PROJECT</text>
+      <rect x="48" y="90" width="140" height="34" rx="17.0" fill="#111317" stroke="#ffffff29"/><circle cx="66" cy="107.0" r="5" fill="#a3f02e" class="ring"/><circle cx="66" cy="107.0" r="4" fill="#a3f02e"/><text x="80" y="112.0" class="f" font-size="14" fill="#8c909a">Coming soon</text>
+      <rect x="202" y="93" width="170" height="28" rx="14.0" fill="#171a1f" stroke="#ffffff14"/><text x="287.0" y="111.5" text-anchor="middle" class="m" font-size="13" fill="#8c909a">MINECRAFT SERVER</text>
+      <text x="44" y="200" class="f" font-size="72" font-weight="700" letter-spacing="-3" fill="#f3f4ee">MineSpace<tspan fill="#a3f02e">.</tspan></text>
+      <text x="48" y="244" class="f" font-size="19" fill="#8c909a">The studio's flagship. A Skyblock-style Minecraft server</text>
+      <text x="48" y="272" class="f" font-size="19" fill="#8c909a">packed with MMORPG elements.</text>
+      <line x1="48" y1="300" x2="700" y2="300" stroke="#ffffff14"/>
+      <text x="48" y="330" class="m" font-size="12" letter-spacing="2" fill="#5b5f68">YEAR</text>
+      <text x="104" y="330" class="f" font-size="15" fill="#f3f4ee">2026 —</text>
+      <text x="214" y="330" class="m" font-size="12" letter-spacing="2" fill="#5b5f68">STACK</text>
+      <text x="276" y="330" class="f" font-size="15" fill="#f3f4ee">Paper 26.1.2 · Java · Player API</text>
+      <circle cx="1144" cy="56" r="24" fill="#a3f02e"/>
+      <path d="M1137 63 L1151 49 M1140 49 H1151 V60" fill="none" stroke="#0a0d05" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect x=".5" y=".5" width="1199" height="359" rx="26" fill="none" stroke="#ffffff29"/></svg>

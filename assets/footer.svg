@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Life is hard. Code it easier."><title>Life is hard. Code it easier.</title><style>
+  .f{font-family:'Geist','Inter','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif} .m{font-family:'Geist Mono','JetBrains Mono',ui-monospace,SFMono-Regular,Consolas,monospace}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  @keyframes ring{0%{r:5;opacity:.7}100%{r:14;opacity:0}}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  @keyframes draw{from{stroke-dashoffset:520}to{stroke-dashoffset:0}}
+  @keyframes glow{0%,100%{opacity:.55}50%{opacity:.9}}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  @keyframes dash{to{stroke-dashoffset:-40}}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  .pulse{animation:pulse 2s ease-in-out infinite}
+  .ring{animation:ring 2s ease-out infinite}
+  .glow{animation:glow 6s ease-in-out infinite}
+  .blink{animation:blink 1.1s steps(1) infinite}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><defs><pattern id="gft" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#ffffff0d" stroke-width="1"/></pattern>
+      <radialGradient id="ftg" cx="50%" cy="100%" r="70%"><stop offset="0" stop-color="#a3f02e" stop-opacity=".30"/><stop offset="1" stop-color="#a3f02e" stop-opacity="0"/></radialGradient>
+      <clipPath id="ftc"><rect width="1200" height="300" rx="28"/></clipPath></defs>
+    <g clip-path="url(#ftc)">
+      <rect width="1200" height="300" fill="#07080a"/>
+      <rect width="1200" height="300" fill="url(#gft)"/>
+      <rect width="1200" height="300" fill="url(#ftg)" class="glow"/>
+      <text x="600.0" y="74" text-anchor="middle" class="m" font-size="15" letter-spacing="3" fill="#a3f02e">● WORDS TO LIVE BY</text>
+      <text x="600.0" y="148" text-anchor="middle" class="f" font-size="56" font-weight="700" letter-spacing="-2" fill="#f3f4ee">Life is hard.</text>
+      <text x="600.0" y="212" text-anchor="middle" class="f" font-size="56" font-weight="700" letter-spacing="-2" fill="#a3f02e">Code it easier.<tspan class="blink" fill="#a3f02e">_</tspan></text>
+      <text x="600.0" y="262" text-anchor="middle" class="f" font-size="17" fill="#8c909a">— Xavér, probably at 3 AM</text>
+    </g>
+    <rect x=".5" y=".5" width="1199" height="299" rx="28" fill="none" stroke="#ffffff14"/></svg>

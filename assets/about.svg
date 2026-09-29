@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="About me"><title>About me</title><style>
+  .f{font-family:'Geist','Inter','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif} .m{font-family:'Geist Mono','JetBrains Mono',ui-monospace,SFMono-Regular,Consolas,monospace}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  @keyframes ring{0%{r:5;opacity:.7}100%{r:14;opacity:0}}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  @keyframes draw{from{stroke-dashoffset:520}to{stroke-dashoffset:0}}
+  @keyframes glow{0%,100%{opacity:.55}50%{opacity:.9}}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  @keyframes dash{to{stroke-dashoffset:-40}}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  .pulse{animation:pulse 2s ease-in-out infinite}
+  .ring{animation:ring 2s ease-out infinite}
+  .glow{animation:glow 6s ease-in-out infinite}
+  .blink{animation:blink 1.1s steps(1) infinite}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><defs><pattern id="ga" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff0d" stroke-width="1"/></pattern></defs><g><rect x="0.5" y=".5" width="284.0" height="199" rx="22" fill="#111317" stroke="#ffffff14"/>
+          <rect x="0.5" y=".5" width="284.0" height="199" rx="22" fill="url(#ga)" opacity=".6"/>
+          <text x="24.0" y="42" class="m" font-size="14" fill="#5b5f68">01</text>
+          <circle cx="255.0" cy="37" r="5" fill="#a3f02e" class="pulse" style="animation-delay:0.0s"/>
+          <text x="24.0" y="134" class="m" font-size="14" letter-spacing="2" fill="#8c909a">ROLE</text>
+          <text x="24.0" y="166" class="f" font-size="21" font-weight="700" fill="#f3f4ee">Founder, dev &amp; IT guy</text></g><g><rect x="305.5" y=".5" width="284.0" height="199" rx="22" fill="#111317" stroke="#ffffff14"/>
+          <rect x="305.5" y=".5" width="284.0" height="199" rx="22" fill="url(#ga)" opacity=".6"/>
+          <text x="329.0" y="42" class="m" font-size="14" fill="#5b5f68">02</text>
+          <circle cx="560.0" cy="37" r="5" fill="#a3f02e" class="pulse" style="animation-delay:-0.5s"/>
+          <text x="329.0" y="134" class="m" font-size="14" letter-spacing="2" fill="#8c909a">FUEL</text>
+          <text x="329.0" y="166" class="f" font-size="21" font-weight="700" fill="#f3f4ee">Coffee → Code → Repeat</text></g><g><rect x="610.5" y=".5" width="284.0" height="199" rx="22" fill="#111317" stroke="#ffffff14"/>
+          <rect x="610.5" y=".5" width="284.0" height="199" rx="22" fill="url(#ga)" opacity=".6"/>
+          <text x="634.0" y="42" class="m" font-size="14" fill="#5b5f68">03</text>
+          <circle cx="865.0" cy="37" r="5" fill="#a3f02e" class="pulse" style="animation-delay:-1.0s"/>
+          <text x="634.0" y="134" class="m" font-size="14" letter-spacing="2" fill="#8c909a">SUPERPOWER</text>
+          <text x="634.0" y="166" class="f" font-size="21" font-weight="700" fill="#f3f4ee">Friday deploys</text></g><g><rect x="915.5" y=".5" width="284.0" height="199" rx="22" fill="#111317" stroke="#ffffff14"/>
+          <rect x="915.5" y=".5" width="284.0" height="199" rx="22" fill="url(#ga)" opacity=".6"/>
+          <text x="939.0" y="42" class="m" font-size="14" fill="#5b5f68">04</text>
+          <circle cx="1170.0" cy="37" r="5" fill="#a3f02e" class="pulse" style="animation-delay:-1.5s"/>
+          <text x="939.0" y="134" class="m" font-size="14" letter-spacing="2" fill="#8c909a">FAMOUS LAST WORDS</text>
+          <text x="939.0" y="166" class="f" font-size="21" font-weight="700" fill="#f3f4ee">Works on my machine</text></g></svg>

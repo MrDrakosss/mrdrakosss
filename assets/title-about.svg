@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="About me — Professional bug creator."><title>About me — Professional bug creator.</title><style>
+  .f{font-family:'Geist','Inter','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif} .m{font-family:'Geist Mono','JetBrains Mono',ui-monospace,SFMono-Regular,Consolas,monospace}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  @keyframes ring{0%{r:5;opacity:.7}100%{r:14;opacity:0}}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  @keyframes draw{from{stroke-dashoffset:520}to{stroke-dashoffset:0}}
+  @keyframes glow{0%,100%{opacity:.55}50%{opacity:.9}}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  @keyframes dash{to{stroke-dashoffset:-40}}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  .pulse{animation:pulse 2s ease-in-out infinite}
+  .ring{animation:ring 2s ease-out infinite}
+  .glow{animation:glow 6s ease-in-out infinite}
+  .blink{animation:blink 1.1s steps(1) infinite}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><text x="4" y="30" class="m" font-size="15" letter-spacing="3" fill="#a3f02e">● ABOUT ME</text>
+      <text x="0" y="84" class="f" font-size="46" font-weight="700" letter-spacing="-1.5" fill="#f3f4ee">Professional bug creator.</text><text x="2" y="126" class="f" font-size="19" fill="#8c909a">I also fix them. Most of the time.</text></svg>
