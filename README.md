@@ -26,20 +26,25 @@
   <img src="./assets/project-minespace.svg" width="100%" alt="MineSpace — a Skyblock-style Minecraft server packed with MMORPG elements" />
 </a>
 
-<p>
-  <a href="https://github.com/MrDrakosss/ImageMark"><img src="./assets/project-imagemark.svg" width="49%" alt="ImageMark" /></a>
-  <a href="https://github.com/MrDrakosss/Remote-Mouse-Controller"><img src="./assets/project-remote-mouse.svg" width="49%" alt="Remote Mouse Controller" /></a>
-</p>
-<p>
-  <a href="https://github.com/MrDrakosss/SeasonFX"><img src="./assets/project-seasonfx.svg" width="49%" alt="SeasonFX" /></a>
-  <a href="https://github.com/MrDrakosss?tab=repositories"><img src="./assets/project-all.svg" width="49%" alt="All projects" /></a>
-</p>
+<a href="https://github.com/MrDrakosss/ImageMark">
+  <img src="./assets/project-imagemark.svg" width="100%" alt="ImageMark — fast watermarking for one photo or a whole folder" />
+</a>
 
-<br />
+<a href="https://github.com/MrDrakosss/Remote-Mouse-Controller">
+  <img src="./assets/project-remote-mouse.svg" width="100%" alt="Remote Mouse — turns your phone into a wireless touchpad for your PC" />
+</a>
+
+<a href="https://github.com/MrDrakosss/SeasonFX">
+  <img src="./assets/project-seasonfx.svg" width="100%" alt="SeasonFX — opt-in seasonal effects and holiday themes for React sites" />
+</a>
+
+<a href="https://github.com/MrDrakosss?tab=repositories">
+  <img src="./assets/project-all.svg" width="100%" alt="All projects" />
+</a>
+
+<br /><br />
 
 <img src="./assets/title-stats.svg" width="100%" alt="Stats — By the numbers." />
-
-<img src="./assets/contributions.svg" width="100%" alt="Contribution graph" />
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=mrdrakosss&background=111317&border=1d2027&stroke=1d2027&ring=a3f02e&fire=a3f02e&currStreakNum=f3f4ee&sideNums=f3f4ee&currStreakLabel=a3f02e&sideLabels=8c909a&dates=5b5f68&border_radius=22" alt="GitHub streak" />
